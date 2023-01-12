@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/images/bball-BG3-rdy.jpg");
+    background-color: #CCCBCB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Oxygen, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 43px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#page-container {
+    max-width: 750px;
+    background-color: #00000035;
+    padding: 50px;
+    text-shadow: 0px 0px 1.3px #ffffff;
+}
+
+#teams-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+#home-team {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-title, #guest-title {
+    margin-top: 60px;
+}
+
+#h-plus1-btn, #g-plus1-btn {
+    background-color: #FF7F50;
+}
+
+#h-plus2-btn, #g-plus2-btn {
+    background-color: #3b37c9;
+}
+
+#h-plus3-btn, #g-plus3-btn {
+    background-color: #daba0d;
+}
+
+#h-minus-btn, #g-minus-btn {
+    background-color: #422000;
+}
+
+#h-minus-btn:hover, #g-minus-btn:hover {
+    background-color:  #734b26;
+
+}
+
+#h-plus1-btn:hover, #g-plus1-btn:hover {
+    background-color: #fe9f7c;;
+}
+
+#h-plus2-btn:hover, #g-plus2-btn:hover {
+    background-color: #5b57ee;
+}
+
+#h-plus3-btn:hover, #g-plus3-btn:hover {
+    background-color: #eece20;
+ }
+
+#save-g-btn, #save-h-btn {
+    background: #006400;
+    width: 100px;
+}
+
+#save-g-btn:hover, #save-h-btn:hover {
+    background: #108e10;
+}
+
+#reset-g-btn, #reset-h-btn {
+    background-color: #d81818;
+    width: 100px;
+}
+
+#reset-g-btn:hover, #reset-h-btn:hover {
+    background-color: #fa3737;
+}

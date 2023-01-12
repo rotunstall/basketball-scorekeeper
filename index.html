@@ -1,0 +1,50 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="page-container">
+            <h1>BASKETBALL <br>SCORE KEEPER</h1>
+            <div id="teams-container">
+                <section id="home-team">
+                    <h3 id="home-title">Home Team Score:</h3>
+                    <h2 id="h-count-el">0</h2>
+                    <div class="btn-wrapper">
+                        <button id="h-plus1-btn" onclick="incrementH1()">+ 1</button>
+                        <button id="h-plus2-btn" onclick="incrementH2()">+ 2</button>
+                        <button id="h-plus3-btn" onclick="incrementH3()">+ 3</button>
+                        <button id="h-minus-btn" onclick="decrementH()">-1</button>
+                    </div>
+                    <div class="util-btn-wrapper">
+                        <button id="save-h-btn" onclick="saveH()">SAVE</button>
+                        <button id="reset-h-btn" onclick="resetH()">RESET</button>
+                    </div>
+                    <p id="save-el-h">End of Each Period: </p>
+                    
+                    
+                </section>
+                
+                <section id="guest-team">
+                    <h3 id="guest-title">Guest Team Score:</h3>
+                    <h2 id="g-count-el">0</h2>
+                    <div class="btn-wrapper">
+                        <button id="g-plus1-btn" onclick="incrementG1()">+ 1</button>
+                        <button id="g-plus2-btn" onclick="incrementG2()">+ 2</button>
+                        <button id="g-plus3-btn" onclick="incrementG3()">+ 3</button>
+                        <button id="g-minus-btn" onclick="decrementG()">-1</button>
+                    </div>
+                    <div class="util-btn-wrapper">
+                        <button id="save-g-btn" onclick="saveG()">SAVE</button>
+                        <button id="reset-g-btn" onclick="resetG()">RESET</button>
+                    </div>
+                    <p id="save-el-g">End of Each Period: </p>
+                </section>
+            </div>
+        </div>
+        <script src="index.js">
+         </script>
+    </body>
+</html>
